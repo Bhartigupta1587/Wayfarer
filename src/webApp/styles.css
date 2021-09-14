@@ -1,0 +1,214 @@
+.navbar img {
+	height: 80px;
+	width: 80px;
+	border-radius: 10px;
+	opacity: 50%;
+	animation: linear;
+}
+
+.navbar {
+	background-color: darkgrey;
+	color: black
+}
+
+.navbar a {
+	font-size: 40px;
+	margin-left: 20px;
+	color: black
+}
+
+.marketing h1 {
+	text-align: center
+}
+
+.marketing {
+	margin-top: 50px;
+}
+
+.carousel-item img {
+	height: 500px;
+	width: 100%;
+	transition: transform 2s ease, opacity .5s ease-out
+}
+
+.city-information {
+	border: 1px solid black;
+	background-color: #fdffd5;
+}
+
+.city-side-bar {
+	background-color: gray;
+	border: black solid 1px;
+}
+
+.city-tabs {
+	background-color: white;
+	border-radius: 20px;
+	border: black solid 1px;
+	margin: 10px;
+	width: 240px;
+	min-height: 50px;
+	padding: 10px;
+}
+
+.city-tabs h4 {
+	width: 220px;
+	margin: 5px;
+}
+
+.city-tabs img {
+	display: block;
+	width: 100%;
+	height: 50px;
+	width: 50px;
+	border: solid black;
+	align-content: center;
+}
+
+.city-tabs:hover {
+	background-color: orange;
+}
+
+.posts-component-aside {
+	background-color: lightgrey;
+	border: black solid 1px;
+}
+
+.posts-component-aside h1 {
+	margin-left: 65px;
+}
+
+.posts-component-card {
+	border-radius: 25px;
+	border: black solid 1px;
+	height: 10px;
+	margin: 10px;
+	background-color: white
+}
+
+.image {
+	width: 100%;
+	height: 100%;
+	border: solid black;
+	align-content: center;
+}
+
+.postImage {
+	display: block;
+	width: 150px;
+	border: solid black;
+	align-content: center;
+}
+
+.post-container {
+	background-color: white;
+	border-radius: 15px;
+	border: black solid 1px;
+	margin: 5px;
+	padding: 7px;
+}
+
+.form-control {
+	height: 40px;
+	box-shadow: none;
+	color: #969fa4;
+}
+
+.form-control:focus {
+	border-color: #5cb85c;
+}
+
+.form-control, .btn {
+	border-radius: 3px;
+}
+
+.signup-form {
+	width: 400px;
+	margin: 0 auto;
+	padding: 30px 0;
+}
+
+.signup-form h2 {
+	color: #636363;
+	margin: 0 0 15px;
+	position: relative;
+	text-align: center;
+}
+
+.signup-form h2:before, .signup-form h2:after {
+	content: "";
+	height: 2px;
+	width: 30%;
+	background: #d4d4d4;
+	position: absolute;
+	top: 50%;
+	z-index: 2;
+}
+
+.signup-form h2:before {
+	left: 0;
+}
+
+.signup-form h2:after {
+	right: 0;
+}
+
+.signup-form .hint-text {
+	color: #999;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.signup-form form {
+	color: #999;
+	border-radius: 3px;
+	margin-bottom: 15px;
+	background: #f2f3f7;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	padding: 30px;
+}
+
+.signup-form .form-group {
+	margin-bottom: 20px;
+}
+
+.signup-form input[type="checkbox"] {
+	margin-top: 3px;
+}
+
+.signup-form .btn {
+	font-size: 16px;
+	font-weight: bold;
+	min-width: 140px;
+	outline: none !important;
+}
+
+.signup-form .row div:first-child {
+	padding-right: 10px;
+}
+
+.signup-form .row div:last-child {
+	padding-left: 10px;
+}
+
+.signup-form a {
+	color: #fff;
+	text-decoration: underline;
+}
+
+.signup-form a:hover {
+	text-decoration: none;
+}
+
+.signup-form form a {
+	color: #5cb85c;
+	text-decoration: none;
+}
+
+.signup-form form a:hover {
+	text-decoration: underline;
+}
+
+table, th, td {
+	border: 1px solid black;
+}
